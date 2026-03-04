@@ -1,8 +1,27 @@
-product: test-repo
-area: cdn
-display_name: Test Remote Repo
-url_prefix: /test-remote-repo
-default_kind: how-to
-owners:
-  - team-cdn
+# ── Identity (required) ──
+name: reserver                    # Registry key — used in ${reserver:version} etc.
+product: paas                     # Product this module belongs to
+area: feature-x                   # Content area — drives directory grouping and sibling relationships
+display_name: Reserver Module     # Human-readable label
+url_prefix: /feature-x            # URL path prefix for all pages in this source
+
+# ── Version & Compatibility ──
+version: 1.4.2                    # Module version — queryable via ${reserver:version}
+compatible_with: "6.3"            # Product version this module version works with
+status: supported                 # supported | eol | deprecated | beta
+
+# ── Content Defaults ──
+default_kind: how-to              # Default kind for pages (overridable per-page in frontmatter)
+
+# ── Ownership ──
+owners:                           # Used for staleness notifications
+  - team-x
   - alex
+
+# ── Variables ──
+vars:                             # Source-scoped — only available within this source's pages
+  sync_mode: scheduled
+  default_timeout: "30"
+
+exports:                          # Global — merged into the shared namespace, available everywhere
+  reserver_api_base: https://api.example.com/v1

@@ -1,0 +1,8 @@
+product: test-repo
+area: cdn
+display_name: Test Remote Repo
+url_prefix: /test-remote-repo
+default_kind: how-to
+owners:
+  - team-cdn
+  - alex

@@ -22,6 +22,3 @@ owners:                           # Used for staleness notifications
 vars:                             # Source-scoped — only available within this source's pages
   sync_mode: scheduled
   default_timeout: "30"
-
-exports:                          # Global — merged into the shared namespace, available everywhere
-  reserver_api_base: https://api.example.com/v1

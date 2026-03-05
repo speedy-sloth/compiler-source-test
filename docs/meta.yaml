@@ -6,7 +6,7 @@ version: 2.2.2            # actual version → URL segments + ${reserver:version
 display_version: "2.2 LTS"  # optional — human-facing label
 compatible_with: "6.4"
 status: supported
-root_page: overview/index.md
+root_page: index.md
 default_kind: how-to
 owners:
   - team-x

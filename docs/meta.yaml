@@ -1,4 +1,4 @@
-name: reserver            # registry key + url prefix
+source_name: reserver            # registry key + url prefix
 product: paas
 area: feature-x
 display_name: Reserver Module

@@ -37,3 +37,5 @@ Cache-Control: max-age=300
 In this example, the CDN caches for 24 hours but the browser only caches for 5 minutes.
 
 See [Configure Cache Policies](cache-policies.md) for step-by-step setup instructions.
+
+<!-- include: @shared/example.md -->

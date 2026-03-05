@@ -1,6 +1,6 @@
 # CDN Overview
 
-release 2
+release 2 work remote
 
 The Content Delivery Network (CDN) layer in Magnolia PaaS sits between the public internet and your author/public instances. It caches rendered pages and static assets at edge locations worldwide, reducing latency for end users and offloading traffic from your origin servers.
 

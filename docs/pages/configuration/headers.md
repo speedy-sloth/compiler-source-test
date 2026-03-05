@@ -38,4 +38,4 @@ In this example, the CDN caches for 24 hours but the browser only caches for 5 m
 
 See [Configure Cache Policies](cache-policies.md) for step-by-step setup instructions.
 
-<!-- include: @shared/example.md -->
+<!-- include: @shared/config/example.md -->

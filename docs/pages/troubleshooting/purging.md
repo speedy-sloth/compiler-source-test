@@ -24,6 +24,7 @@ A full purge removes every cached object for your environment. Use this sparingl
 ```bash
 # Via CLI
 magnolia-cli cache purge --environment production --all
+magnolia-cli cache purge --environment production --test
 ```
 
 ## Automatic Purge on Publish

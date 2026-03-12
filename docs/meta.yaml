@@ -2,7 +2,7 @@ source_name: reserver            # registry key + url prefix
 product: paas
 area: feature-x
 display_name: Reserver Module
-version: 2.2.2            # actual version → URL segments + ${reserver:version}
+version: 2.2.3            # actual version → URL segments + ${reserver:version}
 display_version: "2.2 LTS"  # optional — human-facing label
 compatible_with: "6.4"
 status: supported

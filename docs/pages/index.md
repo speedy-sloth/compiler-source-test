@@ -2,6 +2,13 @@
 
 The Content Delivery Network (CDN) layer in Magnolia PaaS sits between the public internet and your author/public instances. It caches rendered pages and static assets at edge locations worldwide, reducing latency for end users and offloading traffic from your origin servers.
 
+Test
+
+- **${reserver:module_type}**
+- ${reserver:version:6.4}
+- *${reserver:2.2.3:compatible_with}*
+- ${reserver:version:6.4:status}
+
 ## How the CDN Works
 
 When a visitor requests a page, the CDN checks its edge cache first. If a cached copy exists and hasn't expired, the CDN serves it directly without contacting your Magnolia instance. This is a cache hit. If no cached copy exists or it has expired, the CDN forwards the request to your origin server, caches the response, and serves it to the visitor. This is a cache miss.

@@ -36,3 +36,5 @@ For an understanding of how caching works in general, see [CDN Overview](../over
 ## API reference
 
 To see API points, click them and rock out.
+
+Need to add more API endpoints to do things.

@@ -32,3 +32,7 @@ magnolia-cli cache purge --environment production --test
 Magnolia PaaS can automatically purge relevant URLs when content is published. Enable this in the environment settings under **Cache > Auto-Purge**. The system uses the content path mapping to determine which URLs to invalidate.
 
 For an understanding of how caching works in general, see [CDN Overview](../overview/index.md). For header configuration, see [Cache Policies](../configuration/cache-policies.md).
+
+## API reference
+
+To see API points, click them and rock out.

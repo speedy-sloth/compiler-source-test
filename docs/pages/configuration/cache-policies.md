@@ -60,4 +60,4 @@ After saving, use the **Cache Inspector** in the cockpit to verify headers on sp
 
 If content appears stale after changes, see [Purging](../troubleshooting/purging.md) to invalidate the CDN cache.
 
-![Cache configuration panel](images/cache-content-policies.jpg)
+![Cache content policies](images/cache-content-policies.jpg)
